@@ -1,0 +1,116 @@
+Azure 101
+
+Preparation
+
+	• Reboot
+	• Surface in Quiet mode
+	• Phone in do not disturb mode
+	• Make sure Surface is connected to internet
+	• Open an empty Azure portal
+	• Open LbVmVs2017
+	• Start the VM and test the connection
+		○ Lbugnion
+		○ souvent71234.
+	• Open Visual Studio project Hello in the VM
+	• Make sure that the UWP app is there and ready
+	• Exit the app, leave VS running
+	• Open FindOs in Visual Studio
+	• Open mod20lbmongovm
+	• Start the VM
+	• Connect through SSH
+		○ tailwind
+		○ traderstraders42.
+	• mongo
+	• Exit everything
+	• Open LbSampleWebCore
+	• Open SampleWebCore in VS
+	• Font 17
+	• Make sure that staging deployment profile is deleted
+	• Make sure that correct version is deployed to production
+	• Make sure that code is restored in About.cshtml
+	• Open the CosmosDB in the portal
+	• Make sure that the collection is there
+	• Open App Service
+	• Make sure that ConnectionString points to Cosmos DB
+	• Open the website
+	• Open GalaSoft App Service
+	• Make sure that logs are turned on
+	• Check streaming logs
+	• Open LbStaticWeb in portal
+	• Restore Title
+	• Open Azure Pricing Calculator
+	• Open Cognitive service portal https://azure.microsoft.com/en-us/services/cognitive-services/
+	• Open Logic app designer
+	• Open Twitter
+	• Make sure that the correct instagram account laurentbugnion is selected on the phone
+	• Open ChatServer (sample-xamarin-signalr) in Visual Studio and build
+	• Make sure that ChatClientXam.UWP is installed on Windows
+	• Open lbxamnamesample in the portal
+	• Delete SayHello
+	• Open Troy Hunt's article and scroll down to the total
+	• Open LbCalculator in VS
+	• Open XamCalculator in VS
+	• Make sure that XamCalculator.UWP is installed in Windows and works
+	• Open SIgnalR service
+	• Open https://azure.microsoft.com/en-us/free/search/
+	• Start the presentation
+
+Introduction, Regions	2'	0:02
+Demo Azure Portal	4'	0:06
+        - Explain the portal
+        - Show some of the features
+        - Explain dashboard, pinning
+Virtual Machines	3'	0:09
+Demo Virtual Machine	9'	0:18
+        - Show how to create a VM
+        - Connect to Windows VM using RDP
+        - lbugnion
+        - souvent71234.
+        - Start Visual Studio
+        - Start UWP app
+        - Show Linux VM in the portal
+        - Connect to Linux VM using Bash with SSH
+        - traderstraders42.
+        - Mongo, explain
+App Service	3'	0:21
+Demo .NET App Service	10'	0:31
+        • Show how to create an AppService
+        • Show SampleWebCore web application in Visual Studio
+        • Show how to publish
+        • Show the page
+        • Make a change
+        • Explain slots
+        • Publish to deployment slot
+        • Swap
+        • Show GalaSoft app service
+        • Show the streaming logs with gslb.ch
+Storage, Static website + demo	6'	0:37
+        - Show how to create a Storage account
+        - Show LbStaticWeb
+        - Show how to upload with Azure Storage Explorer or in the portal
+        - Edit the blob, refresh
+        - Show the Azure Pricing Calculator
+Intro Data	5'	0:42
+Demo Cosmos DB	4'	0:46
+        - Show a Cosmos DB instance running
+        - Show Product Service
+        - Show connection string with Mongo
+        - Show global replication
+        - Show metrics
+Serverless + demo	10'	0:56
+        - Show how to create a Function application
+        - Show the code in the web portal
+        - Modify the string
+        - Show LbCalculator, explain
+        - Show the client XamCalculator, explain
+Cognitive, Logic Apps	5'	1:01
+Demo Cognitive + Logic Apps	5'	1:06
+SignalR	2'	1:08
+Demo SignalR chat server	5'	1:13
+        - Run UWP version of the app
+        - Run web in Edge
+        - Run web in Chrome
+        - Arrange windows
+        - Send messages
+        - Run through the code
+Conclusion	2'	1:15
